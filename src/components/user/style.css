@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.userList {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Poppins';
+}
+
+.addUser-btn {
+    height: 45px;
+    width: 100%;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: rgb(16, 85, 132);
+    border: 2px solid rgb(20, 66, 97);
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 680;
+    transition:0.3s;
+}
+
+.addUser-btn:hover {
+    color: rgb(16, 85, 132);
+    background-color: rgba(16, 86, 132, 0);
+    transition: 0.3s;
+}
+
+.userList-container {
+    height: 200px;
+    width: 100%;
+}
+
+.userList-data-container {
+    height: 200px;
+    width: 49%;
+    margin-top: 10px;
+    margin-left: 0.5%;
+    background-color: rgb(210, 236, 249);
+    border-radius: 8px;
+    float: left;
+}
+
+.action-icons-container {
+    height: 20px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.icon {
+    height: 20px;
+    width: 80%;
+    float: left;
+}
+
+.trash-icon {
+    height: 20px;
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+    float: left;
+    cursor: pointer;
+}
+
+.trash-icon:hover {
+    color: rgb(124, 124, 124);
+}
+
+.user-key {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.user-value {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Add User */
+
+.user-input {
+    height: 45px;
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 20px;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    font-family: 'Poppins';
+}
+
+.submit-btn {
+    height: 45px;
+    width: 100%;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: rgb(16, 85, 132);
+    border: 2px solid rgb(20, 66, 97);
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 680;
+    transition:0.3s;
+}
+
+.submit-btn:hover {
+    color: rgb(16, 85, 132);
+    background-color: rgba(16, 86, 132, 0);
+    transition: 0.3s;
+}
+
+/* View User */
+
+.userDetails {
+    margin-top: 100px;
+}
+
+.userDetails-container {
+    height: 200px;
+    width: 100%;
+    padding-top: 30px;
+    background-color: rgb(210, 236, 249);
+    border-radius: 8px;
+}
