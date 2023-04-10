@@ -16,7 +16,7 @@
     border-radius: 8px;
     font-size: 18px;
     font-weight: 680;
-    transition:0.3s;
+    transition: 0.3s;
 }
 
 .addUser-btn:hover {
@@ -31,33 +31,57 @@
 }
 
 .userList-data-container {
-    height: 200px;
-    width: 49%;
+    height: 250px;
+    width: 48.2%;
     margin-top: 10px;
-    margin-left: 0.5%;
+    margin-left: 1%;
+    padding-top: 10px;
     background-color: rgb(210, 236, 249);
     border-radius: 8px;
     float: left;
+    box-shadow: 0 0 20px 0.1px black;
 }
 
-.action-icons-container {
-    height: 20px;
-    width: 100%;
+.userView-btn {
+    height: 40px;
+    width: 30%;
     margin-top: 10px;
+    background-color: rgb(68, 255, 0);
+    font-weight: 680;
+    border: 1px solid #000;
+    border-radius: 8px;
+    transition: 0.5s;
 }
 
-.icon {
-    height: 20px;
-    width: 80%;
-    float: left;
+.userUpdate-btn {
+    height: 40px;
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 5%;
+    background-color: rgb(255, 187, 0);
+    font-weight: 680;
+    border: 1px solid black;
+    border-radius: 8px;
+    transition: 0.5s;
 }
 
-.trash-icon {
-    height: 20px;
-    color: rgb(255, 0, 0);
-    font-size: 25px;
-    float: left;
-    cursor: pointer;
+.userDelete-btn {
+    height: 40px;
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 5%;
+    background-color: rgb(255, 0, 0);
+    font-weight: 680;
+    border: 1px solid black;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.userView-btn:hover,
+.userUpdate-btn:hover,
+.userDelete-btn:hover {
+    background-color: #ffffff00;
+    transition: 0.5s;
 }
 
 .trash-icon:hover {
@@ -69,7 +93,7 @@
     font-weight: 600;
 }
 
-.user-value {
+.user-value-data {
     font-size: 18px;
     font-weight: 500;
 }
@@ -97,7 +121,7 @@
     border-radius: 8px;
     font-size: 18px;
     font-weight: 680;
-    transition:0.3s;
+    transition: 0.3s;
 }
 
 .submit-btn:hover {
@@ -118,4 +142,21 @@
     padding-top: 30px;
     background-color: rgb(210, 236, 249);
     border-radius: 8px;
+}
+
+.user-key-onView {
+    color: rgb(16, 85, 132);
+    font-size: 20px;
+    font-weight: 680;
+}
+
+.user-value {
+    font-size: 19px;
+    font-weight: 680;
+}
+
+/* Deleting Confirmation */
+
+.deleteYes-btn {
+    background-color: yellow;
 }
